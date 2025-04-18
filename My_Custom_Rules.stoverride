@@ -1,6 +1,8 @@
 name: My Custom Rules
 desc: Custom rules to persist through updates
 rules:
+  - DOMAIN-SUFFIX,https://imap.yandex.com,DIRECT
+  - DOMAIN-SUFFIX,https://imap.yandex.ru,DIRECT
   - DOMAIN-SUFFIX,grok.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,gemini.google.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,https://e-kama.com,DIRECT
