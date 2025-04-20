@@ -8,6 +8,7 @@ rules:
   - DOMAIN-SUFFIX,imap.yandex.com,DIRECT
   - DOMAIN-SUFFIX,imap.yandex.ru,DIRECT
   - DOMAIN-SUFFIX,grok.com,🇺🇸 US-自动选择
+  - DOMAIN-SUFFIX,chatgpt.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,gemini.google.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,e-kama.com,DIRECT
   - DOMAIN-SUFFIX,time.e-kama.com,DIRECT
