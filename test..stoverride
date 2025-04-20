@@ -1,0 +1,4 @@
+name: Test Override
+desc: Minimal test
+rules:
+  - DOMAIN-SUFFIX,test.com,DIRECT
