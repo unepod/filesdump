@@ -1,12 +1,12 @@
 name: My Custom Rules
 desc: Custom rules to persist through updates
 rules:
-  - DOMAIN-SUFFIX,https://imap.yandex.com,DIRECT
-  - DOMAIN-SUFFIX,https://imap.yandex.ru,DIRECT
+  - DOMAIN-SUFFIX,imap.yandex.com,DIRECT
+  - DOMAIN-SUFFIX,imap.yandex.ru,DIRECT
   - DOMAIN-SUFFIX,grok.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,gemini.google.com,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,https://e-kama.com,DIRECT
-  - DOMAIN-SUFFIX,https://time.e-kama.com,DIRECT
+  - DOMAIN-SUFFIX,e-kama.com,DIRECT
+  - DOMAIN-SUFFIX,time.e-kama.com,DIRECT
   - DOMAIN-SUFFIX,compass-ssl.microsoft.com,DIRECT
   - DOMAIN-SUFFIX,*.skype.com,DIRECT
   - DOMAIN-SUFFIX,mlccdnprod.azureedge.net,DIRECT
@@ -30,10 +30,8 @@ rules:
   - DOMAIN-SUFFIX,*.teams.microsoft.com,DIRECT
   - DOMAIN-SUFFIX,*.teams.cloud.microsoft,DIRECT
   - DOMAIN-SUFFIX,*.lync.com,DIRECT
-  - IP-CIDR,2603:1063::/38,DIRECT
   - IP-CIDR,52.122.0.0/15,DIRECT
   - IP-CIDR,52.112.0.0/14,DIRECT
   - DOMAIN-SUFFIX,https://tmall.com,DIRECT
   - DOMAIN-SUFFIX,https://taobao.com,DIRECT
   - DOMAIN,http://10.120.2.87:4567/chatbot/5562,DIRECT
-  - DOMAIN-SUFFIX,e-kama.com,DIRECT
