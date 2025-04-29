@@ -1,6 +1,8 @@
 name: My Custom Rules
 desc: Custom rules to persist through updates
 rules:
+  - DOMAIN-SUFFIX,tuta.com,🇺🇸 US-自动选择
+  - DOMAIN-SUFFIX,tutanota.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,sberbank.ru,DIRECT
   - DOMAIN-SUFFIX,alfabank.ru,DIRECT
   - DOMAIN-SUFFIX,alfastrah.ru,DIRECT
