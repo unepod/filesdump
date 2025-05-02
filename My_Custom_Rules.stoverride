@@ -12,6 +12,8 @@ rules:
   - DOMAIN-SUFFIX,imap.yandex.com,DIRECT
   - DOMAIN-SUFFIX,imap.yandex.ru,DIRECT
   - DOMAIN-SUFFIX,grok.com,🇺🇸 US-自动选择
+  - DOMAIN-SUFFIX,openai.com,🇺🇸 US-自动选择
+  - DOMAIN-SUFFIX,antrophic.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,chatgpt.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,gemini.google.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,e-kama.com,DIRECT
