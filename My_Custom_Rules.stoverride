@@ -43,6 +43,6 @@ rules:
   - DOMAIN-SUFFIX,*.lync.com,DIRECT
   - IP-CIDR,52.122.0.0/15,DIRECT
   - IP-CIDR,52.112.0.0/14,DIRECT
-  - DOMAIN-SUFFIX,https://tmall.com,DIRECT
-  - DOMAIN-SUFFIX,https://taobao.com,DIRECT
+  - DOMAIN-SUFFIX,tmall.com,DIRECT
+  - DOMAIN-SUFFIX,taobao.com,DIRECT
   - DOMAIN,http://10.120.2.87:4567/chatbot/5562,DIRECT
