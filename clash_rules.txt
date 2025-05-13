@@ -1,6 +1,6 @@
-  - DOMAIN-SUFFIX,tuta.com,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,tutanota.com,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,sberbank.ru,DIRECT
+  - 'DOMAIN-SUFFIX,tuta.com,🇺🇸 US-自动选择'
+  - 'DOMAIN-SUFFIX,tutanota.com,🇺🇸 US-自动选择'
+  - 'DOMAIN-SUFFIX,sberbank.ru,DIRECT'
   - DOMAIN-SUFFIX,alfabank.ru,DIRECT
   - DOMAIN-SUFFIX,alfastrah.ru,DIRECT
   - DOMAIN-SUFFIX,tinkoff.ru,DIRECT
@@ -40,6 +40,6 @@
   - DOMAIN-SUFFIX,*.lync.com,DIRECT
   - IP-CIDR,52.122.0.0/15,DIRECT
   - IP-CIDR,52.112.0.0/14,DIRECT
-  - DOMAIN-SUFFIX,https://tmall.com,DIRECT
-  - DOMAIN-SUFFIX,https://taobao.com,DIRECT
-  - DOMAIN,http://10.120.2.87:4567/chatbot/5562,DIRECT
+  - DOMAIN-SUFFIX,tmall.com,DIRECT
+  - DOMAIN-SUFFIX,taobao.com,DIRECT
+  - IP-CIDR,http://10.120.2.87:4567/chatbot/5562,DIRECT
