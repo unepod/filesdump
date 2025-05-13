@@ -1,3 +1,4 @@
+prepend:
   - 'DOMAIN-SUFFIX,tuta.com,🇺🇸 US-自动选择'
   - 'DOMAIN-SUFFIX,tutanota.com,🇺🇸 US-自动选择'
   - 'DOMAIN-SUFFIX,grok.com,🇺🇸 US-自动选择'
