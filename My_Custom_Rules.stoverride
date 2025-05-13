@@ -45,4 +45,4 @@ rules:
   - IP-CIDR,52.112.0.0/14,DIRECT
   - DOMAIN-SUFFIX,tmall.com,DIRECT
   - DOMAIN-SUFFIX,taobao.com,DIRECT
-  - DOMAIN,http://10.120.2.87:4567/chatbot/5562,DIRECT
+  - IP-CIDR,http://10.120.2.87:4567/chatbot/5562,DIRECT
