@@ -7,10 +7,10 @@ rules:
   - DOMAIN-SUFFIX,alfabank.ru,DIRECT
   - DOMAIN-SUFFIX,alfastrah.ru,DIRECT
   - DOMAIN-SUFFIX,tinkoff.ru,DIRECT
-  - DOMAIN-SUFFIX,smtp.yandex.ru,DIRECT
-  - DOMAIN-SUFFIX,smtp.yandex.com,DIRECT
-  - DOMAIN-SUFFIX,imap.yandex.com,DIRECT
-  - DOMAIN-SUFFIX,imap.yandex.ru,DIRECT
+  - DOMAIN-SUFFIX,smtp.yandex.ru,🇭🇰 HK-自动选择
+  - DOMAIN-SUFFIX,smtp.yandex.com,🇭🇰 HK-自动选择
+  - DOMAIN-SUFFIX,imap.yandex.com,🇭🇰 HK-自动选择
+  - DOMAIN-SUFFIX,imap.yandex.ru,🇭🇰 HK-自动选择
   - DOMAIN-SUFFIX,grok.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,openai.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,antrophic.com,🇺🇸 US-自动选择
