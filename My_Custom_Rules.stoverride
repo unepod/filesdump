@@ -50,3 +50,4 @@ rules:
   - DOMAIN,http://10.120.2.87:4567/chatbot/5562,DIRECT
   - DST-PORT,51820,DIRECT
   - PROCESS-NAME,netbird,DIRECT
+  - DOMAIN-SUFFIX,https://vpn.e-kama.com:443,DIRECT
