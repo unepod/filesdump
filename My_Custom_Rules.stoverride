@@ -1,7 +1,6 @@
 name: My Custom Rules
 desc: Custom rules to persist through updates
 rules:
-  - PROCESS-NAME,netbird,DIRECT
   - PROCESS-NAME,WhatsApp,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,tuta.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,tutanota.com,🇺🇸 US-自动选择
@@ -49,3 +48,5 @@ rules:
   - DOMAIN-SUFFIX,tmall.com,DIRECT
   - DOMAIN-SUFFIX,taobao.com,DIRECT
   - DOMAIN,http://10.120.2.87:4567/chatbot/5562,DIRECT
+  - DST-PORT,51820,DIRECT
+  - PROCESS-NAME,netbird,DIRECT
