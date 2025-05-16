@@ -1,6 +1,7 @@
 name: My Custom Rules
 desc: Custom rules to persist through updates
 rules:
+  - PROCESS-NAME,netbird,DIRECT
   - PROCESS-NAME,WhatsApp,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,tuta.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,tutanota.com,🇺🇸 US-自动选择
