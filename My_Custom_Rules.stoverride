@@ -1,6 +1,11 @@
 name: My Custom Rules
 desc: Custom rules to persist through updates
 rules:
+  - DOMAIN,http://10.120.2.87:4567/chatbot/5562,DIRECT
+  - DST-PORT,51820,DIRECT
+  - PROCESS-NAME,netbird,DIRECT
+  - DOMAIN-SUFFIX,https://vpn.e-kama.com:443,DIRECT
+  - IP-CIDR,100.105.156.226/16,DIRECT
   - PROCESS-NAME,WhatsApp,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,tuta.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,tutanota.com,🇺🇸 US-自动选择
@@ -47,8 +52,3 @@ rules:
   - IP-CIDR,52.112.0.0/14,DIRECT
   - DOMAIN-SUFFIX,tmall.com,DIRECT
   - DOMAIN-SUFFIX,taobao.com,DIRECT
-  - DOMAIN,http://10.120.2.87:4567/chatbot/5562,DIRECT
-  - DST-PORT,51820,DIRECT
-  - PROCESS-NAME,netbird,DIRECT
-  - DOMAIN-SUFFIX,https://vpn.e-kama.com:443,DIRECT
-  - IP-CIDR,100.105.156.226/16,DIRECT
