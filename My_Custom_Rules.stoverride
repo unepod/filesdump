@@ -51,3 +51,4 @@ rules:
   - DST-PORT,51820,DIRECT
   - PROCESS-NAME,netbird,DIRECT
   - DOMAIN-SUFFIX,https://vpn.e-kama.com:443,DIRECT
+  - IP-CIDR,100.105.156.226/16,DIRECT
