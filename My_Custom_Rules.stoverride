@@ -1,10 +1,11 @@
 name: My Custom Rules
 desc: Custom rules to persist through updates
 rules:
+  - DOMAIN-SUFFIX,connect.garmin.com,DIRECT
   - DOMAIN,http://10.120.2.87:4567/chatbot/5562,DIRECT
   - DST-PORT,51820,DIRECT
   - PROCESS-NAME,netbird,DIRECT
-  - DOMAIN-SUFFIX,https://vpn.e-kama.com:443,DIRECT
+  - DOMAIN-SUFFIX,vpn.e-kama.com:443,DIRECT
   - IP-CIDR,100.105.156.226/16,DIRECT
   - PROCESS-NAME,WhatsApp,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,tuta.com,🇺🇸 US-自动选择
