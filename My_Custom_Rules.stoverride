@@ -19,6 +19,7 @@ rules:
   - DOMAIN-SUFFIX,smtp.yandex.com,🇭🇰 HK-自动选择
   - DOMAIN-SUFFIX,imap.yandex.com,🇭🇰 HK-自动选择
   - DOMAIN-SUFFIX,imap.yandex.ru,🇭🇰 HK-自动选择
+  - DOMAIN-SUFFIX,yandex.ru,🇭🇰 HK-自动选择
   - DOMAIN-SUFFIX,grok.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,openai.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,antrophic.com,🇺🇸 US-自动选择
