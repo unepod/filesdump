@@ -1,6 +1,7 @@
 name: My Custom Rules
 desc: Custom rules to persist through updates
 rules:
+  - DOMAIN-SUFFIX,evkama.sharepoint.com,DIRECT
   - DOMAIN-SUFFIX,connectus.garmin.cn,DIRECT
   - DOMAIN-SUFFIX,connect.garmin.com,DIRECT
   - DOMAIN,http://10.120.2.87:4567/chatbot/5562,DIRECT
