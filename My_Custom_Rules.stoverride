@@ -1,6 +1,13 @@
 name: My Custom Rules
 desc: Custom rules to persist through updates
 rules:
+  - 'DOMAIN-SUFFIX,telegram.org,速鹰666'
+  - 'DOMAIN-KEYWORD,telegram,速鹰666'
+  - 'PROCESS-NAME,Telegram,速鹰666'
+  - 'PROCESS-NAME,netbird,DIRECT'
+  - 'DOMAIN-SUFFIX,*.time.com,🇭🇰 HK-自动选择'
+  - 'PROCESS-NAME,TiMe.exe,🇭🇰 HK-自动选择'
+  - 'DOMAIN-SUFFIX,*.time.e-kama.com,🇭🇰 HK-自动选择'
   - DOMAIN-SUFFIX,evkama.sharepoint.com,DIRECT
   - DOMAIN-SUFFIX,connectus.garmin.cn,DIRECT
   - DOMAIN-SUFFIX,connect.garmin.com,DIRECT
@@ -28,7 +35,6 @@ rules:
   - DOMAIN-SUFFIX,gemini.google.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,e-kama.com,🇭🇰 HK-自动选择
   - DOMAIN-SUFFIX,jira.e-kama.com,🇭🇰 HK-自动选择
-  - DOMAIN-SUFFIX,time.e-kama.com,DIRECT
   - DOMAIN-SUFFIX,compass-ssl.microsoft.com,DIRECT
   - DOMAIN-SUFFIX,*.skype.com,DIRECT
   - DOMAIN-SUFFIX,mlccdnprod.azureedge.net,DIRECT
