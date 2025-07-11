@@ -17,6 +17,7 @@ rules:
   - DST-PORT,51820,DIRECT
   - PROCESS-NAME,netbird,DIRECT
   - DOMAIN-SUFFIX,vpn.e-kama.com:443,DIRECT
+  - DOMAIN-SUFFIX,hr.int.e-kama.com,DIRECT
   - IP-CIDR,100.105.156.226/16,DIRECT
   - DOMAIN-SUFFIX,sharepoint.com,DIRECT
   - PROCESS-NAME,WhatsApp,🇺🇸 US-自动选择
