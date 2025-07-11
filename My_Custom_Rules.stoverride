@@ -5,7 +5,7 @@ rules:
   - IP-CIDR,149.154.160.0/20,速鹰666
   - DOMAIN-SUFFIX,telegram.org,速鹰666
   - DOMAIN-KEYWORD,telegram,速鹰666
-  - MATCH,DIRECT
+  - DOMAIN-SUFFIX,*.int.e-kama.com,DIRECT
   - PROCESS-NAME,netbird,DIRECT
   - DOMAIN-SUFFIX,*.time.com,速鹰666
   - PROCESS-NAME,TiMe.exe,速鹰666
@@ -17,7 +17,6 @@ rules:
   - DST-PORT,51820,DIRECT
   - PROCESS-NAME,netbird,DIRECT
   - DOMAIN-SUFFIX,vpn.e-kama.com:443,DIRECT
-  - DOMAIN-SUFFIX,hr.int.e-kama.com,DIRECT
   - IP-CIDR,100.105.156.226/16,DIRECT
   - DOMAIN-SUFFIX,sharepoint.com,DIRECT
   - PROCESS-NAME,WhatsApp,🇺🇸 US-自动选择
