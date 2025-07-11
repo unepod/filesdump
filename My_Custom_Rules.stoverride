@@ -7,9 +7,9 @@ rules:
   - DOMAIN-KEYWORD,telegram,速鹰666
   - MATCH,DIRECT
   - PROCESS-NAME,netbird,DIRECT
-  - DOMAIN-SUFFIX,*.time.com,🇭🇰 HK-自动选择
-  - PROCESS-NAME,TiMe.exe,🇭🇰 HK-自动选择
-  - DOMAIN-SUFFIX,*.time.e-kama.com,🇭🇰 HK-自动选择
+  - DOMAIN-SUFFIX,*.time.com,速鹰666
+  - PROCESS-NAME,TiMe.exe,速鹰666
+  - DOMAIN-SUFFIX,*.time.e-kama.com,速鹰666
   - DOMAIN-SUFFIX,evkama.sharepoint.com,DIRECT
   - DOMAIN-SUFFIX,connectus.garmin.cn,DIRECT
   - DOMAIN-SUFFIX,connect.garmin.com,DIRECT
@@ -18,6 +18,7 @@ rules:
   - PROCESS-NAME,netbird,DIRECT
   - DOMAIN-SUFFIX,vpn.e-kama.com:443,DIRECT
   - IP-CIDR,100.105.156.226/16,DIRECT
+  - DOMAIN-SUFFIX,sharepoint.com,DIRECT
   - PROCESS-NAME,WhatsApp,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,tuta.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,tutanota.com,🇺🇸 US-自动选择
@@ -35,8 +36,9 @@ rules:
   - DOMAIN-SUFFIX,antrophic.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,chatgpt.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,gemini.google.com,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,e-kama.com,🇭🇰 HK-自动选择
+  - DOMAIN-SUFFIX,plugins.gradle.org,DIRECT
   - DOMAIN-SUFFIX,jira.e-kama.com,🇭🇰 HK-自动选择
+  - DOMAIN-SUFFIX,e-kama.com,🇭🇰 HK-自动选择
   - DOMAIN-SUFFIX,compass-ssl.microsoft.com,DIRECT
   - DOMAIN-SUFFIX,*.skype.com,DIRECT
   - DOMAIN-SUFFIX,mlccdnprod.azureedge.net,DIRECT
