@@ -37,6 +37,7 @@ rules:
   - DOMAIN-SUFFIX,openai.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,chatgpt.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,aistudio.google.com,🇺🇸 US-自动选择
+  - DOMAIN-SUFFIX,console.cloud.google.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,gemini.google.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,apis.google.com,🇺🇸 US-自动选择
