@@ -32,8 +32,9 @@ rules:
   - DOMAIN-SUFFIX,imap.yandex.ru,🇭🇰 HK-自动选择
   - DOMAIN-SUFFIX,yandex.ru,🇭🇰 HK-自动选择
   - DOMAIN-SUFFIX,grok.com,🇺🇸 US-自动选择
+  - DOMAIN-SUFFIX,claude.ai,🇺🇸 US-自动选择
+  - DOMAIN-SUFFIX,anthropic.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,openai.com,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,antrophic.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,chatgpt.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,gemini.google.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,plugins.gradle.org,DIRECT
