@@ -38,6 +38,8 @@ rules:
   - DOMAIN-SUFFIX,chatgpt.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,aistudio.google.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,gemini.google.com,🇺🇸 US-自动选择
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com,🇺🇸 US-自动选择
+  - DOMAIN-SUFFIX,apis.google.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,plugins.gradle.org,DIRECT
   - DOMAIN-SUFFIX,jira.e-kama.com,DIRECT
   - DOMAIN-SUFFIX,e-kama.com,🇭🇰 HK-自动选择
