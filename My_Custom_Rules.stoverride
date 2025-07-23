@@ -19,9 +19,9 @@ rules:
   - DOMAIN-SUFFIX,vpn.e-kama.com:443,DIRECT
   - IP-CIDR,100.105.156.226/16,DIRECT
   - DOMAIN-SUFFIX,sharepoint.com,DIRECT
-  - PROCESS-NAME,WhatsApp,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,tuta.com,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,tutanota.com,🇺🇸 US-自动选择
+  - PROCESS-NAME,WhatsApp,速鹰666
+  - DOMAIN-SUFFIX,tuta.com,速鹰666
+  - DOMAIN-SUFFIX,tutanota.com,速鹰666
   - DOMAIN-SUFFIX,sberbank.ru,DIRECT
   - DOMAIN-SUFFIX,alfabank.ru,DIRECT
   - DOMAIN-SUFFIX,alfastrah.ru,DIRECT
@@ -31,16 +31,16 @@ rules:
   - DOMAIN-SUFFIX,imap.yandex.com,DIRECT
   - DOMAIN-SUFFIX,imap.yandex.ru,DIRECT
   - DOMAIN-SUFFIX,yandex.ru,🇭🇰 HK-自动选择
-  - DOMAIN-SUFFIX,grok.com,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,claude.ai,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,anthropic.com,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,openai.com,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,chatgpt.com,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,aistudio.google.com,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,console.cloud.google.com,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,gemini.google.com,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,generativelanguage.googleapis.com,🇺🇸 US-自动选择
-  - DOMAIN-SUFFIX,apis.google.com,🇺🇸 US-自动选择
+  - DOMAIN-SUFFIX,grok.com,速鹰666
+  - DOMAIN-SUFFIX,claude.ai,速鹰666
+  - DOMAIN-SUFFIX,anthropic.com,速鹰666
+  - DOMAIN-SUFFIX,openai.com,速鹰666
+  - DOMAIN-SUFFIX,chatgpt.com,速鹰666
+  - DOMAIN-SUFFIX,aistudio.google.com,速鹰666
+  - DOMAIN-SUFFIX,console.cloud.google.com,速鹰666
+  - DOMAIN-SUFFIX,gemini.google.com,速鹰666
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com,速鹰666
+  - DOMAIN-SUFFIX,apis.google.com,速鹰666
   - DOMAIN-SUFFIX,plugins.gradle.org,DIRECT
   - DOMAIN-SUFFIX,jira.e-kama.com,DIRECT
   - DOMAIN-SUFFIX,e-kama.com,🇭🇰 HK-自动选择
