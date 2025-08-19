@@ -1,5 +1,20 @@
 name: My Custom Rules
 desc: Custom rules to persist through updates
+dns:
+  nameserver:
+    - 100.105.255.254
+    - 180.184.1.1
+    - 119.29.29.29
+    - 223.5.5.5
+    - https://223.6.6.6/dns-query
+    - https://120.53.53.53/dns-query
+    - tls://223.5.5.5:853
+  nameserver-policy:
+    "*.atom.team": 100.105.255.254
+    "*.e-kama.com": 100.105.255.254
+fake-ip-filter: [
+  '*.atom.team'
+]
 rules:
   - IP-CIDR,91.108.0.0/16,速鹰666
   - IP-CIDR,149.154.160.0/20,速鹰666
@@ -71,3 +86,4 @@ rules:
   - IP-CIDR,52.112.0.0/14,DIRECT
   - DOMAIN-SUFFIX,tmall.com,DIRECT
   - DOMAIN-SUFFIX,taobao.com,DIRECT
+
