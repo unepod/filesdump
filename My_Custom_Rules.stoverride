@@ -22,9 +22,8 @@ rules:
   - DOMAIN-KEYWORD,telegram,速鹰666
   - DOMAIN-SUFFIX,*.int.e-kama.com,DIRECT
   - PROCESS-NAME,netbird,DIRECT
-  - DOMAIN-SUFFIX,*.time.com,速鹰666
-  - PROCESS-NAME,TiMe.exe,速鹰666
-  - DOMAIN-SUFFIX,*.time.e-kama.com,速鹰666
+  - PROCESS-NAME,TiMe.exe,DIRECT
+  - DOMAIN-SUFFIX,*.time.e-kama.com,DIRECT
   - DOMAIN-SUFFIX,evkama.sharepoint.com,DIRECT
   - DOMAIN-SUFFIX,connectus.garmin.cn,DIRECT
   - DOMAIN-SUFFIX,connect.garmin.com,DIRECT
@@ -86,4 +85,5 @@ rules:
   - IP-CIDR,52.112.0.0/14,DIRECT
   - DOMAIN-SUFFIX,tmall.com,DIRECT
   - DOMAIN-SUFFIX,taobao.com,DIRECT
+
 
