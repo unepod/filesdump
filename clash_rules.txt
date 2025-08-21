@@ -1,3 +1,74 @@
-  - 'DOMAIN-SUFFIX,tuta.com,🇺🇸 US-自动选择'
-  - 'DOMAIN-SUFFIX,tutanota.com,🇺🇸 US-自动选择'
-  - 'DOMAIN-SUFFIX,grok.com,🇺🇸 US-自动选择'
+# Clash Rules
+---
+payload:
+    - IP-CIDR,91.108.0.0/16,速鹰666
+    - IP-CIDR,149.154.160.0/20,速鹰666
+    - DOMAIN-SUFFIX,telegram.org,速鹰666
+    - DOMAIN-KEYWORD,telegram,速鹰666
+    - DOMAIN-SUFFIX,*.int.e-kama.com,DIRECT
+    - PROCESS-NAME,netbird,DIRECT
+    - PROCESS-NAME,TiMe.exe,DIRECT
+    - DOMAIN-SUFFIX,*.time.e-kama.com,DIRECT
+    - DOMAIN-SUFFIX,evkama.sharepoint.com,DIRECT
+    - DOMAIN-SUFFIX,connectus.garmin.cn,DIRECT
+    - DOMAIN-SUFFIX,connect.garmin.com,DIRECT
+    - DOMAIN,http://10.120.2.87:4567/chatbot/5562,DIRECT
+    - DST-PORT,51820,DIRECT
+    - PROCESS-NAME,netbird,DIRECT
+    - DOMAIN-SUFFIX,vpn.e-kama.com:443,DIRECT
+    - IP-CIDR,100.105.156.226/16,DIRECT
+    - DOMAIN-SUFFIX,sharepoint.com,DIRECT
+    - PROCESS-NAME,WhatsApp,速鹰666
+    - DOMAIN-SUFFIX,tuta.com,速鹰666
+    - DOMAIN-SUFFIX,tutanota.com,速鹰666
+    - DOMAIN-SUFFIX,sberbank.ru,DIRECT
+    - DOMAIN-SUFFIX,alfabank.ru,DIRECT
+    - DOMAIN-SUFFIX,alfastrah.ru,DIRECT
+    - DOMAIN-SUFFIX,tinkoff.ru,DIRECT
+    - DOMAIN-SUFFIX,smtp.yandex.ru,DIRECT
+    - DOMAIN-SUFFIX,smtp.yandex.com,DIRECT
+    - DOMAIN-SUFFIX,imap.yandex.com,DIRECT
+    - DOMAIN-SUFFIX,imap.yandex.ru,DIRECT
+    - DOMAIN-SUFFIX,yandex.ru,🇭🇰 HK-自动选择
+    - DOMAIN-SUFFIX,grok.com,速鹰666
+    - DOMAIN-SUFFIX,claude.ai,速鹰666
+    - DOMAIN-SUFFIX,anthropic.com,速鹰666
+    - DOMAIN-SUFFIX,openai.com,速鹰666
+    - DOMAIN-SUFFIX,chatgpt.com,速鹰666
+    - DOMAIN-SUFFIX,aistudio.google.com,速鹰666
+    - DOMAIN-SUFFIX,console.cloud.google.com,速鹰666
+    - DOMAIN-SUFFIX,gemini.google.com,速鹰666
+    - DOMAIN-SUFFIX,generativelanguage.googleapis.com,速鹰666
+    - DOMAIN-SUFFIX,apis.google.com,速鹰666
+    - DOMAIN-SUFFIX,plugins.gradle.org,DIRECT
+    - DOMAIN-SUFFIX,jira.e-kama.com,DIRECT
+    - DOMAIN-SUFFIX,e-kama.com,🇭🇰 HK-自动选择
+    - DOMAIN-SUFFIX,compass-ssl.microsoft.com,DIRECT
+    - DOMAIN-SUFFIX,*.skype.com,DIRECT
+    - DOMAIN-SUFFIX,mlccdnprod.azureedge.net,DIRECT
+    - DOMAIN-SUFFIX,join.secure.skypeassets.com,DIRECT
+    - DOMAIN-SUFFIX,adl.windows.com,DIRECT
+    - DOMAIN-SUFFIX,*.users.storage.live.com,DIRECT
+    - DOMAIN-SUFFIX,aka.ms,DIRECT
+    - DOMAIN-SUFFIX,*.streaming.mediaservices.windows.net,DIRECT
+    - DOMAIN-SUFFIX,*.keydelivery.mediaservices.windows.net,DIRECT
+    - IP-CIDR6,2620:1ec:40::/42,DIRECT
+    - IP-CIDR6,2620:1ec:6::/48,DIRECT
+    - IP-CIDR6,2603:1063::/38,DIRECT
+    - IP-CIDR6,2603:1057::/48,DIRECT
+    - IP-CIDR6,2603:1047::/48,DIRECT
+    - IP-CIDR6,2603:1037::/48,DIRECT
+    - IP-CIDR6,2603:1027::/48,DIRECT
+    - IP-CIDR,52.244.160.207/32,DIRECT
+    - IP-CIDR,52.238.119.141/32,DIRECT
+    - DOMAIN-SUFFIX,teams.microsoft.com,DIRECT
+    - DOMAIN-SUFFIX,teams.cloud.microsoft,DIRECT
+    - DOMAIN-SUFFIX,*.teams.microsoft.com,DIRECT
+    - DOMAIN-SUFFIX,*.teams.cloud.microsoft,DIRECT
+    - DOMAIN-SUFFIX,*.lync.com,DIRECT
+    - IP-CIDR,52.122.0.0/15,DIRECT
+    - IP-CIDR,52.112.0.0/14,DIRECT
+    - DOMAIN-SUFFIX,tmall.com,DIRECT
+    - DOMAIN-SUFFIX,taobao.com,DIRECT
+  
+  
