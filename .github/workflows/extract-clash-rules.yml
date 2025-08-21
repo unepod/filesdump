@@ -3,7 +3,10 @@ name: Extract Clash Rules as YAML
 on:
   push:
     branches:
-      - main  # Change this if needed
+      - main
+
+permissions:
+  contents: write   # <-- this is the fix
 
 jobs:
   extract-rules:
