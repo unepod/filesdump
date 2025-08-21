@@ -1,0 +1,33 @@
+name: Extract Clash Rules as YAML
+
+on:
+  push:
+    branches:
+      - main  # Change this if needed
+
+jobs:
+  extract-rules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract rules and convert to YAML
+        run: |
+          echo "# Clash Rules" > clash_rules.txt
+          echo "---" >> clash_rules.txt
+          echo "payload:" >> clash_rules.txt
+          awk 'found {print "  " $0} /rules:/ {found=1}' My_Custom_Rules.stoverride >> clash_rules.txt
+
+      - name: Commit clash_rules.txt
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add clash_rules.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Update clash_rules.txt from My_Custom_Rules.stoverride"
+            git push
+          else
+            echo "No changes to commit"
+          fi
