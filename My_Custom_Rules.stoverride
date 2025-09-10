@@ -20,6 +20,7 @@ rules:
   - IP-CIDR,149.154.160.0/20,速鹰666
   - DOMAIN-SUFFIX,telegram.org,速鹰666
   - DOMAIN-KEYWORD,telegram,速鹰666
+  - DOMAIN-SUFFIX,ktalk.ru,DIRECT
   - DOMAIN-SUFFIX,*.int.e-kama.com,DIRECT
   - PROCESS-NAME,netbird,DIRECT
   - PROCESS-NAME,TiMe.exe,DIRECT
