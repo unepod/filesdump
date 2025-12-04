@@ -43,6 +43,7 @@ payload:
     - DOMAIN-SUFFIX,apis.google.com,速鹰666
     - DOMAIN-SUFFIX,plugins.gradle.org,DIRECT
     - DOMAIN-SUFFIX,jira.e-kama.com,DIRECT
+    - DOMAIN-SUFFIX,confluence.e-kama.com,DIRECT
     - DOMAIN-SUFFIX,e-kama.com,🇭🇰 HK-自动选择
     - DOMAIN-SUFFIX,compass-ssl.microsoft.com,DIRECT
     - DOMAIN-SUFFIX,*.skype.com,DIRECT
@@ -71,5 +72,6 @@ payload:
     - IP-CIDR,52.112.0.0/14,DIRECT
     - DOMAIN-SUFFIX,tmall.com,DIRECT
     - DOMAIN-SUFFIX,taobao.com,DIRECT
+  
   
   
