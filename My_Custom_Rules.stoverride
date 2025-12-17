@@ -49,6 +49,7 @@ rules:
   - DOMAIN-SUFFIX,grok.com,速鹰666
   - DOMAIN-SUFFIX,claude.ai,速鹰666
   - DOMAIN-SUFFIX,anthropic.com,速鹰666
+  - DOMAIN-SUFFIX,anthropic.com,速鹰666
   - DOMAIN-SUFFIX,openai.com,速鹰666
   - DOMAIN-SUFFIX,chatgpt.com,速鹰666
   - DOMAIN-SUFFIX,aistudio.google.com,速鹰666
@@ -87,6 +88,7 @@ rules:
   - IP-CIDR,52.112.0.0/14,DIRECT
   - DOMAIN-SUFFIX,tmall.com,DIRECT
   - DOMAIN-SUFFIX,taobao.com,DIRECT
+
 
 
 
