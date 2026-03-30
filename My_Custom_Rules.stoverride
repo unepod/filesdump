@@ -46,6 +46,10 @@ rules:
   - DOMAIN-SUFFIX,imap.yandex.com,DIRECT
   - DOMAIN-SUFFIX,imap.yandex.ru,DIRECT
   - DOMAIN-SUFFIX,yandex.ru,🇭🇰 HK-自动选择
+  - DOMAIN-SUFFIX,play.google.com,🇺🇸 US-自动选择
+  - DOMAIN-SUFFIX,console.firebase.google.com,🇺🇸 US-自动选择
+  - DOMAIN-SUFFIX,appstoreconnect.apple.com,🇺🇸 US-自动选择
+  - DOMAIN-SUFFIX,developer.apple.com,🇺🇸 US-自动选择
   - DOMAIN-SUFFIX,grok.com,速鹰666
   - DOMAIN-SUFFIX,claude.ai,速鹰666
   - DOMAIN-SUFFIX,anthropic.com,速鹰666
